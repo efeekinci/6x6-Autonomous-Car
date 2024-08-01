@@ -1,10 +1,10 @@
 # 6x6-Autonomous-Car
-This is a repository of ROMER Summer Internship 2024. The project is reconstructing and restarting the 6x6 radio controlled car into ROS compatible reseach platform made by ... (!) for graduation project in 2021-2022.
+This is a repository of ROMER Summer Internship 2024. The project is reconstructing and restarting the 6x6 radio controlled car into ROS compatible reseach platform made by Özgür Gülsuna, Emre Dağ, Mustafa Akbaba for graduation project in 2021-2022. For original repository [click here](https://github.com/ozgurgulsuna/ME462-MechatronicDesign.git)
 
 
 ### Group Members
-- Göktuğhan Efe Ekinci
-- Eren Kazaz
+- [Göktuğhan Efe Ekinci](https://github.com/efeekinci)
+- [Eren Kazaz](https://github.com/ernkazaz)
 - Yiğit Adaş
 ## Contents
 - [About Project](#about-project)
@@ -50,10 +50,15 @@ Methods used to control the vehicle:
 - **Autonomous Control**: Autonomous movement through software algorithms. (belki repoyu inceleyip kullanılan yapay zeka metodunu elaborate ederiz prooje üzerinde)
 
 ## Setup and Usage
+**Manual Control**
+
 Follow these steps to run the project in your environment:
-- For installing the requirements: pip install -r requirements.txt (buna ihtiyacımız olmayabilir.)
-- Upload the Arduino file (buraya da sanırım main_code.ino yu ekleyeceğiz?)
-- Burayı daha da düzenleriz zaten belki step-by-step instruction veririz terminalden yapılacakları ssh ın kurulumunu falan.
+- From the keyboardControl folder upload the main_code.ino file to your Arduino Nano
+- Connect the Jetson Nano from your computer with SSH (in -X mode)
+   ```sh
+   ssh -X username@jetson-ip-address
+   ```
+- Run the arduino_talker.py and ros_keyboard.py files from terminal.
 
 ## Results
 As a result of this project, the 6x6 vehicle was successfully made autonomous. The vehicle was able to detect various obstacles and navigate around them to follow the desired path. (gibisinden şeyler, incele)
@@ -63,4 +68,6 @@ For further information: [https://github.com/ozgurgulsuna/ME462-MechatronicDesig
 - Nvidia Jetson
 - Arduino
 - Sensors and motors
+### Future Works
+
   
