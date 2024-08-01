@@ -46,7 +46,7 @@ The Arduino controls the motors and sensors. Its main functions are:
 
 ## Car Control
 Methods used to control the vehicle:
-- **Manual Control**: Manual control via keyboard over SSH. 
+- **Manual Control**: Manual control via keyboard over SSH.
 - **Autonomous Control**: Autonomous movement through software algorithms. (belki repoyu inceleyip kullanılan yapay zeka metodunu elaborate ederiz prooje üzerinde)
 
 ## Setup and Usage
@@ -58,14 +58,9 @@ Follow these steps to run the project in your environment:
 ## Results
 As a result of this project, the 6x6 vehicle was successfully made autonomous. The vehicle was able to detect various obstacles and navigate around them to follow the desired path. (gibisinden şeyler, incele)
 
+For further information: https://github.com/ozgurgulsuna/ME462-MechatronicDesign/tree/main
 ### Requirements
 - Nvidia Jetson
 - Arduino
 - Sensors and motors
-
-### Setup
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/username/repo.git (burada özgür abilerin reposununu linkini vereceğiz sanırım?)
-   cd repo
-   
+  
