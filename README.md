@@ -1,5 +1,5 @@
 # 6x6-Autonomous-Car
-This is a repository of ROMER Summer Internship 2024. The project is reconstructing and restarting the 6x6 radio controlled car into ROS compatible reseach platform made by Özgür Gülsuna, Emre Dağ, Mustafa Akbaba for graduation project in 2021-2022. For original repository [click here](#https://github.com/ozgurgulsuna/ME462-MechatronicDesign.git)
+This is a repository of ROMER Summer Internship 2024. The project is reconstructing and restarting the 6x6 radio controlled car into ROS compatible reseach platform made by Özgür Gülsuna, Emre Dağ, Mustafa Akbaba for graduation project in 2021-2022. For original repository [click here](https://github.com/ozgurgulsuna/ME462-MechatronicDesign.git)
 
 
 ### Group Members
