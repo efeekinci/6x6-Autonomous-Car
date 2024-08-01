@@ -58,7 +58,7 @@ Follow these steps to run the project in your environment:
 ## Results
 As a result of this project, the 6x6 vehicle was successfully made autonomous. The vehicle was able to detect various obstacles and navigate around them to follow the desired path. (gibisinden şeyler, incele)
 
-For further information: https://github.com/ozgurgulsuna/ME462-MechatronicDesign/tree/main
+For further information: [https://github.com/ozgurgulsuna/ME462-MechatronicDesign/tree/main](https://github.com/ozgurgulsuna/ME462-MechatronicDesign.git)
 ### Requirements
 - Nvidia Jetson
 - Arduino
