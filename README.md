@@ -47,14 +47,14 @@ The Arduino controls the motors and sensors. Its main functions are:
 ## Car Control
 Methods used to control the vehicle:
 - **Manual Control**: Manual control via keyboard over SSH.
-- **Autonomous Control**: Autonomous movement through software algorithms. (belki repoyu inceleyip kullanılan yapay zeka metodunu elaborate ederiz prooje üzerinde)
+- **Autonomous Control**: Autonomous movement through software algorithms. (belki repoyu inceleyip kullanılan yapay zeka metodunu elaborate ederiz proje üzerinde)
 
 ## Setup and Usage
 **Manual Control**
 
 Follow these steps to run the project in your environment:
 - From the keyboardControl folder upload the main_code.ino file to your Arduino Nano
-- Connect the Jetson Nano from your computer with SSH (in -X mode)
+- Connect the Jetson Nano from your computer with SSH
    ```sh
    ssh -X username@jetson-ip-address
    ```
