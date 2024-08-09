@@ -25,6 +25,8 @@ The main components used in this project are:
 - **Nvidia Jetson Nano**: Main control unit and image processing.
 - **Raspberry Pi Pico**: Hall Effect sensor encoder.
 - **Arduino Nano**: Motor control.
+- **Pixhawk 2.1 Cube Black**: Autopilot.
+- **Emlid Reach M+**: RTK GNSS Module.
 - **Sensors**: LiDAR, camera module, hall effect, ultrasonic.
 - **Traxxas XL-5 ESC**: Electronic speed control unit.
 - **Others**: Battery, cables, connectors, DC-DC converter.
