@@ -24,8 +24,7 @@ The main components used in this project are:
 - **6x6 Vehicle Chassis**: Mechanical structure and wheel system.
 - **Nvidia Jetson Nano**: Main control unit and image processing.
 - **Raspberry Pi Pico**: Hall Effect sensor encoder.
-- **Arduino Nano**: Motor control.
-- **Pixhawk 2.1 Cube Black**: Autopilot.
+- **Pixhawk 2.1 Cube Black**: Autopilot and motor control.
 - **Emlid Reach M+**: RTK GNSS Module.
 - **Sensors**: LiDAR, camera module, hall effect, ultrasonic.
 - **Traxxas XL-5 ESC**: Electronic speed control unit.
@@ -55,12 +54,11 @@ Methods used to control the vehicle:
 **Manual Control**
 
 Follow these steps to run the project in your environment:
-- From the keyboardControl folder upload the main_code.ino file to your Arduino Nano
 - Connect the Jetson Nano from your computer with SSH
    ```sh
    ssh -X username@jetson-ip-address
    ```
-- Run the arduino_talker.py and ros_keyboard.py files from terminal.
+- Run the motorControl.py and ros_keyboard.py files from terminal.
 
 ## Results
 As a result of this project, the 6x6 vehicle was successfully made autonomous. The vehicle was able to detect various obstacles and navigate around them to follow the desired path. (gibisinden şeyler, incele)
@@ -68,7 +66,7 @@ As a result of this project, the 6x6 vehicle was successfully made autonomous. T
 For further information: [https://github.com/ozgurgulsuna/ME462-MechatronicDesign/tree/main](https://github.com/ozgurgulsuna/ME462-MechatronicDesign.git)
 ### Requirements
 - Nvidia Jetson
-- Arduino
+- Pixhawk 2.1 Cube Black
 - Sensors and motors
 ### Future Works
 
