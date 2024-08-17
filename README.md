@@ -17,16 +17,16 @@ This is a repository of ROMER Summer Internship 2024. The project is reconstruct
 - [Future Works](#future-works)
 
 ## About Project
-This project was conducted as part of an internship at ROMER. The goal is to enable a 6x6 vehicle to move autonomously. The vehicle uses various sensors and control mechanisms to detect obstacles and determine its path.
+This project was conducted as part of an internship at ROMER. The goal is to enable a 6x6 vehicle to move autonomously. The purpose of the vehicle is to use various sensors to create a map using SLAM algorithm and be able to autonomously drive in the map that is already created.
 
 ## Vehicle Hardware
 The main components used in this project are:
 - **6x6 Vehicle Chassis**: Mechanical structure and wheel system.
 - **Nvidia Jetson Nano**: Main control unit and image processing.
 - **Raspberry Pi Pico**: Hall Effect sensor encoder.
-- **Pixhawk 2.1 Cube Black**: Autopilot and motor control.
+- **Pixhawk 2.1 Cube Black**: Autopliot and motor control.
 - **Emlid Reach M+**: RTK GNSS Module.
-- **Sensors**: LiDAR, camera module, hall effect, ultrasonic.
+- **Sensors**: LiDAR, camera module, hall effect, IMU(Pixhawk), RTK(Emlid Reach M+).
 - **Traxxas XL-5 ESC**: Electronic speed control unit.
 - **Others**: Battery, cables, connectors, DC-DC converter.
 
@@ -40,10 +40,7 @@ The main control software running on Nvidia Jetson manages the vehicle's movemen
 - **Image Processing**: Processing camera data using the YOLO model.
 - **Motion Planning**: Determining the vehicle's path through algorithms.
 - **Sensor Reading**: Reading data from ultrasonic sensors and LiDAR.
-
-### Arduino Control Software
-The Arduino controls the motors and sensors. Its main functions are:
-- **Motor Control**: Controlling the speed and direction of the motors.
+- **Motor Control**: Controlling the speed and direction of the motors through Pixhawk.
 
 ## Car Control
 Methods used to control the vehicle:
