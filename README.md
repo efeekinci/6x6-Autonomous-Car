@@ -83,5 +83,5 @@ For further information: [https://github.com/ozgurgulsuna/ME462-MechatronicDesig
 - Pixhawk 2.1 Cube Black
 - Sensors and motors
 ### Future Works
-
+   The car has suitable parts for outdoor drive such as RTK and IMU sensors. Moreover, there is also a slot for the camera so, the car is suitable for outdoor drive and image processing.
   
