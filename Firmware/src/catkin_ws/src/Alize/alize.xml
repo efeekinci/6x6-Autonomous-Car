@@ -1,0 +1,41 @@
+	<robot name="alize">
+		<link name="base_link">
+		</link>
+		
+		<link name="velodyne">
+		</link>
+
+		<joint name="base_link_to_lidar" type="fixed">		
+			<axis xyz="0 0 0"/>
+			<parent link="base_link"/>
+			<child link="velodyne"/>
+			<origin xyz="0.16 0.0 0.28" rpy="0.0 0.0  0.0"/>
+			
+		</joint>
+			
+		<link name="pan">
+		</link>
+
+		<joint name="base_link_to_pan" type="revolute">		
+			<axis xyz="0 0 1"/>
+			<limit effort="30.0" lower="-1.57" upper="3.14" velocity="1.0"/>
+			<parent link="base_link"/>
+			<child link="pan"/>
+			<origin xyz="0.3 0.0 0.21" rpy="0.0 0.0  4.014"/>
+
+		</joint>
+
+		<link name="camera_link">
+		</link>
+
+		<joint name="pan_to_camera_link" type="fixed">		
+			<axis xyz="0 0 0"/>
+			<parent link="pan"/>
+			<child link="camera_link"/>
+			<origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+
+		</joint>
+		
+		
+		
+	</robot>

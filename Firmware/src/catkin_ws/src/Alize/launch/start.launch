@@ -1,0 +1,9 @@
+<launch>
+        <param name="robot_description" command="cat $(find Alize)/alize.xml" />
+        <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+        <node name="deneme" pkg="Alize" type="deneme" />
+        <node name="pico_publisher" pkg="pico_encoder" type="pico_talker_old.py" output="screen" />
+        <node name="odom_transform" pkg="pico_encoder" type="odom_transform.py" output="screen" />
+        <include file="$(find velodyne_pointcloud)/launch/VLP16_points.launch"/>
+	<include file="$(find pc2l_lidar)/launch/start.launch"/>
+</launch>

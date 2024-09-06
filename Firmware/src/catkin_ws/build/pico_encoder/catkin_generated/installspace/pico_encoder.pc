@@ -1,0 +1,8 @@
+prefix=/home/eren/catkin_ws/install
+
+Name: pico_encoder
+Description: Description of pico_encoder
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

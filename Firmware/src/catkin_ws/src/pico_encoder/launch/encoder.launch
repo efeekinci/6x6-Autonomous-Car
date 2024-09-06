@@ -1,0 +1,8 @@
+<launch>
+    <!-- pico_publisher düğümünü başlatır -->
+    <node name="pico_publisher" pkg="pico_encoder" type="ros_pico.py" output="screen" />
+
+    <!-- odom_transform düğümünü başlatır -->
+    <node name="odom_transform" pkg="pico_encoder" type="odom_transform.py" output="screen" />
+</launch>
+

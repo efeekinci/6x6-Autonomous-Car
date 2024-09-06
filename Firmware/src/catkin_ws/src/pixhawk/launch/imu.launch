@@ -1,0 +1,3 @@
+<launch>
+    <node name="imu_publisher" pkg="pixhawk" type="mavlink_bridge.py" output="screen" />
+</launch>

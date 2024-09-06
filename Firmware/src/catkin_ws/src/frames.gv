@@ -1,0 +1,7 @@
+digraph G {
+"bamap" -> "bese_link"[label="Broadcaster: /static_transform_publisher_1724240448647426878\nAverage rate: 10.190 Hz\nMost recent transform: 1724240520.999 ( -0.041 sec old)\nBuffer length: 4.907 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1724240520.958"[ shape=plaintext ] ;
+ }->"bamap";
+}

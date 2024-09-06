@@ -1,0 +1,2 @@
+Alize:alize_2dnav:g_slam:keyboard_comment:pc2l_lidar:pico_encoder:pixhawk:slam:velodyne/velodyne:velodyne/velodyne_driver:velodyne/velodyne_laserscan:velodyne/velodyne_msgs:velodyne/velodyne_pcl:velodyne/velodyne_pointcloud
+-DCATKIN_DEVEL_PREFIX=/home/eren/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/eren/catkin_ws/install -G Unix Makefiles
