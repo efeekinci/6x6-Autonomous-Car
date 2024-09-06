@@ -75,7 +75,7 @@ Also follow these steps to run the project in your environment:
 - Initialize motorAutonom.py ros node to start autonomous drive. (This code may need slight adjustments to motor pwm values depending on the calibration of esc)
 
 ## Results
-As a result of this project, the 6x6 vehicle was successfully made autonomous. The vehicle was able to create a map, detect various obstacles and navigate around them to follow the desired path. You can see the internship video [here](https://youtu.be/J0ETjmS26sI)
+As a result of this project, the 6x6 vehicle was successfully made autonomous. The vehicle was able to create a map, detect various obstacles and navigate around them to follow the desired path. You can see the internship video [here](https://youtu.be/J0ETjmS26sI).
 
 For further information: [https://github.com/ozgurgulsuna/ME462-MechatronicDesign/tree/main](https://github.com/ozgurgulsuna/ME462-MechatronicDesign.git)
 ### Requirements
