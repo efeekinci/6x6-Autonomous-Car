@@ -57,6 +57,12 @@ Follow these steps to run the project in your environment:
   ```sh
    roslaunch g_slam gmapping.launch
    ```
+- After the mapping is done save the map
+  ```sh
+   rosrun map_server map_saver -f map
+
+For autonomous driving the user should change the map file to the desired map file via entering the name in .yaml file
+
 **Autonomous Control**
 
 Also follow these steps to run the project in your environment:
